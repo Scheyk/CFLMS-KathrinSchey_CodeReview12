@@ -1,0 +1,67 @@
+/*
+Theme Name: Mount Everest KS-Travel Agency
+Theme URI: https://www.codefactory.live
+Author: the CodeFactory Team
+Author URI: https://www.codefactory.wien
+Description: a theme from the scratch. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CodeFactory
+Tags: responsive, exciting, compatible
+*/
+
+body {	
+	font-family: 'Anton', sans-serif;
+}
+
+.pic {
+	width: 50%;
+	margin:  auto;
+}
+
+/* .sidebar {
+	width: 20%;
+} */
+
+/* .blog-content {
+	width: 100%;
+} */
+
+footer {
+	background-color: #FFC107;
+	
+}
+
+.adress > p {
+	margin: 0;
+	color: #FFFFFF;
+
+}
+
+.try {
+	/* width: 100%; */
+	margin:  auto;
+	/* display: block; */
+}
+
+.self {
+	max-width: 22em;
+	/* padding: 3%; */
+}
+
+.index-back {	
+	padding: 1%;
+}
+
+.header {
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	background-image: url('https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.header p {
+	padding: 5%;
+}

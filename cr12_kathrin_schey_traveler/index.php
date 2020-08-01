@@ -4,7 +4,7 @@
 	 <!-- container fluid start -->
 	<div class="container-fluid">
 
-		<h1 class="text-center my-4">Blog about Travel´s yay!</h1>
+		<h1 class="text-center my-4"><!-- <img src="logo.png"> --></h1>
 		
 		<!--  main row start -->
 		<div class="row">
@@ -19,15 +19,14 @@
 
 			<!-- second main col start (for the whole content) -->
 			<div class="col-lg-10 col-md-10 col-sm-12">
-
 				<!-- row for the card start  --> 
-				<div class="row blog-content justify-content-around">
+				<div class="row justify-content-around">
 					<?php if(have_posts()) : ?> <!--  If there are posts available  -->
        					<?php while(have_posts()) : the_post(); ?> <!-- if there are posts, iterate the posts in the loop -->
 
 						 <!-- col for the card start  -->
 						<div class="self col-lg-4 col-md-6 col-sm-12 mt-3">
-							<div class="try d-none d-sm-block">
+							<div>
 								<?php if(has_post_thumbnail()) : ?>
 									<?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid rounded mx-auto', 'title' => 'Feature image']); ?>								
 								<?php endif; ?>
@@ -42,7 +41,11 @@
        						</p>       
        						<p>
        							<?php the_excerpt(); ?>  <!--retrieves excerpt-->     								
-       						</p>								
+       						</p>       						
+       						<div class="comment">
+								<?php comment_form(); ?>       							 	
+       						</div>
+       						<hr>								
 						</div>
 						<!-- col for the card end  -->
        					<?php endwhile; ?><!--end the while loop-->

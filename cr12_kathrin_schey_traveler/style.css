@@ -12,22 +12,89 @@ Tags: responsive, exciting, compatible
 */
 
 body {	
-	font-family: 'Anton', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.nav {
+	font-size: 1.5em;
+}
+
+hr {
+	border: 2px solid #FFC107;
+}
+
+/* style widgets start */
+.sidebar {	
+	padding-left: 2%;
+	padding-right: 0;
+}
+
+.side > ul {
+	list-style-type: none;
+	padding: 1%;
+	width: 90%;
+}
+
+.side > .calendar_wrap {
+	text-align: center;
+}
+
+.calendar_wrap > table {
+	width: 90%;
+	/* margin-right: 0; */
+}
+
+/* style widgets end */
+
+/* styling staticsite (front-page) start */
+.home-header {
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	background-image: url('https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-size: cover;
+}
+
+.home-header p {
+	padding: 5%;
+}
+
+.info {
+	max-width: 30em;
 }
 
 .pic {
 	width: 50%;
 	margin:  auto;
 }
+/* styling staticsite (front-page) end */
 
-/* .sidebar {
-	width: 20%;
-} */
+/* styling blogpage start */
+.self {
+	max-width: 22em;	
+}
+/* styling blogpage end */
 
-/* .blog-content {
-	width: 100%;
-} */
+/* styling for comments start */
+.comment {
+	color: #FFC107;
+	/* width: 100%; */
+}
 
+.comment-form-comment > textarea {
+	width: 70%;	
+}
+
+.comment-form-comment > label {
+	display: none;
+}
+
+.logged-in-as {
+	display: none;
+}
+/* styling for comments end */
+
+/* styling footer start */
 footer {
 	background-color: #FFC107;
 	
@@ -36,32 +103,69 @@ footer {
 .adress > p {
 	margin: 0;
 	color: #FFFFFF;
-
 }
+
+.adress {
+	width: 70%;
+}
+
+.container-icons {
+	width: 30%;	
+}
+
+.png {
+	width: 3em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+/* styling footer end */
+
+/* styling feedback-page start */
+.contact {
+	width: 60%;
+	padding: 1%;
+	margin: auto;
+}
+
+textarea {
+  resize: none;
+}
+/* styling feedback-page end */
+
+
 
 .try {
-	/* width: 100%; */
-	margin:  auto;
-	/* display: block; */
-}
-
-.self {
-	max-width: 22em;
-	/* padding: 3%; */
-}
-
-.index-back {	
-	padding: 1%;
-}
-
-.header {
 	width: 100%;
-	height: 100%;
-	padding: 10%;
-	background-image: url('https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-	background-size: cover;
+	height: 20%;
 }
 
-.header p {
-	padding: 5%;
+.carousel-item {
+	width: 30em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
